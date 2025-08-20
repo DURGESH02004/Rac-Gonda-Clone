@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REC Gonda || Academic Calendar</title>
+    <link rel="icon" href="./img/logo1.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <STYLE>
+        BODY{
+            background-image: url(./img/bgimg/bg1.jpg);
+            background-attachment: fixed;
+        }
+    </STYLE>
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="container-fluid">
+        <div class="row bgcolor r1 p-2 align-items-center">
+            <div class="col-sm-4 text-light" style="font-family: 'Poppins', sans-serif; font-weight: 400;">
+                <p class="my-auto"><i class="fa-regular fa-clock"></i> <span id="clock"></span></p>
+            </div>
+            <div class="col-sm-8 text-end">
+                <button class="btn btn-outline-warning"><i class="fa-solid fa-building-columns"
+                        style="color: #FFD43B;"></i>&nbsp;&nbsp;Virtual Tour</button>
+                <button class="btn btn-outline-warning"><i class="fa-solid fa-graduation-cap"
+                        style="color: #FFD43B;"></i>&nbsp;&nbsp;Grievance</button>
+                <button class="btn btn-outline-warning"><i class="fa-solid fa-user-shield"
+                        style="color: #FFD43B;"></i>&nbsp;&nbsp;Admin Login</button>
+
+                <!-- Social Media Icons -->
+                <a href="https://www.instagram.com/rec.gonda" target="_blank"
+                    class="text-white border rounded-circle d-inline-flex align-items-center justify-content-center"
+                    style="width: 30px; height: 30px;  text-decoration:none;    ">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank"
+                    class="text-white border rounded-circle d-inline-flex align-items-center justify-content-center"
+                    style="width: 30px; height: 30px; text-decoration:none;    ">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank"
+                    class="text-white border rounded-circle d-inline-flex align-items-center justify-content-center"
+                    style="width: 30px; height: 30px; text-decoration:none;    ">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank"
+                    class="text-white border rounded-circle d-inline-flex align-items-center justify-content-center"
+                    style="width: 30px; height: 30px; text-decoration:none;    ">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank"
+                    class="text-white border rounded-circle d-inline-flex align-items-center justify-content-center"
+                    style="width: 30px; height: 30px; text-decoration:none;    ">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" target="_blank" class="text-white border-0 rounded-circle d-inline-flex align-items-center"
+                    style="text-decoration: none;">
+                    <i class="fa-solid fa-tag"></i>&nbsp;<span style="font-size: 16px;">Tenders</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Logo & College Info -->
+        <div class="container mt-4">
+            <div class="row align-items-center">
+                <div class="col-sm-2 text-end">
+                    <img src="./img/bgimg/reclogo.jpg" alt="REC Logo" height="130px">
+                </div>
+                <div class="col-sm-6">
+                    <h5 class="textcolor fw-bold" style="font-size: 23px;">Maa Pateshwari Devi, Rajkiya Engineering
+                        College, Gonda</h5>
+                    <hr class="mt-0 mb-0">
+                    <h5 class="textcolorhindi mt-2" style="font-family: 'Kalam', cursive; font-weight: 800;">
+                        माँ पाटेश्वरी देवी, राजकीय इंजीनियरिंग कॉलेज, गोंडा
+                    </h5>
+                    <h6 class="mt-3" style="font-size: 16px; font-weight: 500;">
+                        AICTE Approved & Affiliated to Dr. A.P.J. Abdul Kalam Technical University, Lucknow
+                    </h6>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="./img/aktu.png" height="130px">&nbsp;&nbsp;
+                    <img src="./img/scape/MDI.png" height="80px">
+                </div>
+            </div>
+        </div>
+        <!--Mneu container start-->
+        <!-- Navigation Menu -->
+        <div class="row" style="background-color: #a30808;">
+            <nav class="navbar navbar-expand-lg navbar-dark"
+                style="background-color: #a30808; font-family: 'Poppins', sans-serif; font-weight: 500;">
+                <div class="container">
+
+
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item" style="border-right:1px solid white ;">
+                                <a class="nav-link text-white" href="#">Home </a>
+                            </li>
+                           <li class="nav-item dropdown" style="border-right:1px solid white;">
+                               <a class="nav-link  text-white" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About REC
+  </a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+    <li><a class="dropdown-item" href="./about.html">About Us</a></li>
+    <li><a class="dropdown-item" href="./vistion.html">Vision &amp; Mission</a></li>
+    <li><a class="dropdown-item" href="./director.html">Director's Message</a></li>
+    <li><a class="dropdown-item" href="./Accreditations.html">Accreditations</a></li>
+    <li><a class="dropdown-item" href="./mobm.html">Minutes of BOG Meeting</a></li>
+    <li><a class="dropdown-item" href="./moa.html">Memorandum Of Association</a></li>
+    <li><a class="dropdown-item" href="./G.o For Change.html">G.O For Change Of College Name</a></li>
+    <li><a class="dropdown-item" href="./AICTE.html">AICTE EoA &amp; Affiliation</a></li>
+    <li><a class="dropdown-item" href="./momBWC.html">Minutes Of Meeting of BWC CPC And FC</a></li>
+    <li><a class="dropdown-item" href="#">Service Rule</a></li>
+    <li><a class="dropdown-item" href="/Content/RecgondaFile/NewsLetter RecGonda Vol.12024-25.pdf" target="_blank">News Letter</a></li>
+    <li><a class="dropdown-item" href="/home/AffiliationLetter">Affiliation Letter</a></li>
+  </ul>
+</li>
+
+                           <li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Governance
+    </a>
+    <ul class="dropdown-menu" style="background-color: darkred;">
+        <li><a class="dropdown-item" href="./director copy.html">Director's Profile</a></li>
+        <li><a class="dropdown-item" href="./Board.html">Board of Governance</a></li>
+        <li><a class="dropdown-item" href="./Adminstration.html">Adminstration</a></li>
+        <li><a class="dropdown-item" href="./council.html">Council & community</a></li>
+        <li><a class="dropdown-item" href="./Budget.html">Budget</a></li>
+
+
+
+
+        <li><a class="dropdown-item" href="#">Socity Bylaws</a></li>
+    </ul>
+</li>
+
+<li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="./Acadimic.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Academics
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="./Acadimic.html">ACADMIC OFFICIALS</a></li>
+        <li><a class="dropdown-item" href="./courseof sttudy.html">COURSE OF STUDY</a></li>
+        <li><a class="dropdown-item" href="./syllabus.html">SYLLABUS</a></li>
+        <li><a class="dropdown-item" href="./acadmic cal.html">ACADMIC CALENDER</a></li>
+        <li><a class="dropdown-item" href="./fees.html">FEES STRUCTURE</a></li>
+        <li><a class="dropdown-item" href="./admisstion.html">ADMISSTION</a></li>
+        <li><a class="dropdown-item" href="https://recgonda.ac.in/Content/RecgondaFile/Rules.pdf">RULES</a></li>
+        <li><a class="dropdown-item" href="./listofholi.html">LIST OF HOLIDAY</a></li>
+        <li><a class="dropdown-item" href="https://recgonda.ac.in/home/TimeTable">TIME TABLE</a></li>
+        <li><a class="dropdown-item" href="#">INDUSTRIAL AND ACADMIOC ASSOCIATION  MENTOR</a></li>
+        <li><a class="dropdown-item" href="#">ACADMIC COMMITE-MINUTES OF MEETING</a></li>
+
+
+
+
+        
+
+
+
+
+
+    </ul>
+</li>
+
+<li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Departments
+    </a>
+    <ul class="dropdown-menu">
+        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="./Dofcse.html">Department of computer science Engineering</a>
+        <ul class="dropdown-menu submenu">
+            <li><a href="./Dofcselab.html" class="dropdown-item"></a>CSE lab</li></li>
+        </ul>
+        </li>
+        <!--next-->
+        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="./Dofce.html">Department of Civil Engineering</a>
+        <ul class="dropdown-menu submenu">
+            <li><a href="./Dofcelab.html" class="dropdown-item">CE lab</a></li>
+        </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="./Dofme.html">Department of Mechanical Engineering</a>
+        <ul class="dropdown-menu submenu">
+            <li><a href="./Dofmelab.html" class="dropdown-item">ME lab</a></li>
+        </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="./Dofee.html">Department of Electrical Engineering</a>
+        <ul class="dropdown-menu submenu">
+            <li><a href="./Dofeelab.html" class="dropdown-item">EE lab</a></li>
+        </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="./Dofashp.html">Department of Applied Science & Humanties</a>
+        <ul class="dropdown-menu submenu">
+            <li>ASHP lab</li>
+        </ul>
+        </li>
+        
+    </ul>
+</li>
+
+<li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Placement Cell
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="./placeover.html">Overview</a></li>
+        <li><a class="dropdown-item" href="./placBrach.html">Placement Brochure</a></li>
+        <li><a class="dropdown-item" href="./placNoti.html">Notification</a></li>
+        <li><a class="dropdown-item" href="./placpastRe.html">Past Recruitment/a></li>
+        <li><a class="dropdown-item" href="./placTraning.html">Training & Placement Officer</a></li>
+        <li><a class="dropdown-item" href="./placRec.html">Placement Record</a></li>
+        <li><a class="dropdown-item" href="./placmou.html">Mou</a></li>
+
+
+    </ul>
+</li>
+
+<li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Students
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Clubs</a></li>
+        <li><a class="dropdown-item" href="#">Activities</a></li>
+    </ul>
+</li>
+
+<li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Faculty & Research
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="./Facdirect.html">Faculty Directory</a></li>
+        <li><a class="dropdown-item" href="./Facreaspub.html">Research Publications</a></li>
+        <li><a class="dropdown-item" href="./FAcResAct.html">Research Activities</a></li>
+        <li><a class="dropdown-item" href="#">Research Consultancy And Testing Service Guidlines</a></li>
+
+
+    </ul>
+</li>
+
+<li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="./IQAC.html" role="button" >
+        IQAC
+    </a>
+    
+</li>
+
+<li class="nav-item dropdown" style="border-right:1px solid white;">
+    <a class="nav-link  text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Examination & Results
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="./Examtionation.html">Examination</a></li>
+        <li><a class="dropdown-item" href="https://recgonda.ac.in/Content/RecgondaFile/06_REC%20GONDA_DAA_%20RULE%20REGULATION.pdf">Rules</a></li>
+        <li><a class="dropdown-item" href="./ExamResult.html">Results</a></li>
+        <li><a class="dropdown-item" href="./ExamShem.html">Examination Scheme</a></li>
+        <li><a class="dropdown-item" href="./Examcell.html">Examination cell</a></li>
+
+
+
+    </ul>
+</li>
+
+<li class="nav-item dropdown">
+    <a class="nav-link  text-white" href="./contact.html" role="button">
+        Contact Us
+    </a>
+    
+</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+          </div>
+        <!--slider-->
+      <div class="container-fluid" style="background:linear-gradient(rgba(0, 0, 0, 0.432)), url('https://static.vecteezy.com/system/resources/thumbnails/049/725/830/small_2x/closeup-of-a-stack-of-books-at-a-local-library-a-resource-for-families-to-gather-and-learn-together-photo.jpg') no-repeat center center; background-size: cover;">
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-sm-12 pb-5" >
+                <h3 class="text-light mt-5 p-5 fs-2 fw-bold ">Academic Calendar</h3>
+                <div class="row mt-n4">
+                    <div class="col d-flex mx-5 " style="margin-top: -40px;">
+                        <a href="./index.html" target="_blank" class="text-decoration-none text-light fs-5 fw-medium">Home</a>
+                        <i class="fa fa-angle-double-right pt-1 px-3 mt-1 mx-3" style="color: white;"></i>
+                        <a href="/" class="text-decoration-none text-light fs-5 fw-medium">
+Academic Calendar</a>
+
+                        
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+      </div>
+     <!--TEXT area-->
+  <div class="container">
+    <div class="row p-3">
+        <div class="col-sm-12 p-4">
+            <h4 style="color: darkred;" class="fw-bold">Academic Calendar</h4>
+            <hr style="border:1px solid black;">
+            <p style="text-align:justify; line-height:34px;">
+                Academic year consists of two semesters, namely the Odd Semester and the Even Semester, each having ordinarily, duration of 90 working days.
+                All academic programmes of the Institute are administered according to the academic calendar issued by Dr. A.P.J. Abdul Kalam Technical University.
+                The timings observed by the Institute for academic purposes are ordinarily from 9.00 A.M. to 5.00P.M. Any change in the timing is properly notified.
+                No Notices are circulated in the class rooms. Students are advised to see the notice boards of their respective departments, administrative block,
+                library, hostels, workshop etc regularly.
+            </p>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th style="background-color:darkred; color:white;">S.NO.</th>
+                        <th style="background-color:darkred; color:white;">Academic Calendar</th>
+                        <th style="background-color:darkred; color:white;">Semester</th>
+                        <th style="background-color:darkred; color:white;">Download</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td colspan="4" class="text-center fw-bold">Data to be Uploaded&nbsp;soon</td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+    
+      
+
+       
+      
+      
+
+       
+
+
+     
+
+       
+      
+        <!--footer-->
+        <footer class="footer pb-4" style="background-color:darkred; color: white;">
+            <div class="container-fluid">
+                <div class="container">
+                <div class="row mt-5 pt-5 pb-4">
+                    <!-- College Info -->
+                    <div class="col-md-4">
+                        <h5 class="speak-text" style="border-bottom: 2px solid red; width: 72%; padding-bottom: 5px;">RAJKIYA ENGINEERING COLLEGE</h5>
+                        <!--<div style="width: 100%; height: 3px; background-color: #ffffff;"></div>-->
+                        <p class="speak-text">
+                            <i class="fa-solid fa-location-dot fa-bounce"></i> &nbsp;Address: Maa Pateshwari Devi,
+                            Rajkiya Engineering College,
+                            Utraula Road,<br>
+                            Gonda 271 002 (U. P.)
+                        </p>
+
+                        <p class="speak-text"><strong><i class="fa-solid fa-envelope fa-bounce"></i>
+                                &nbsp;Email:</strong> director@recgonda.ac.in</p>
+
+                        <h5  style="border-bottom: 2px solid red; width: 53%; padding-bottom: 5px">Other Contact details</h5>
+                        <p class="mb-0"><b>Coordinator-</b>+91 99903 85812</p>
+                        <p class="mb-0 mt-0"><b>Dean Academic-</b> +91 88875 36334</p>
+                        <p class="mb-3 mt-0"><b>Registrar-</b>&nbsp;+91&nbsp;94101&nbsp;46092</p>
+                        <!-- Badge Code - Custom Styled -->
+                        <a class="hitCounter badge-done0" href="https://visitorshitcounter.com/" target="_blank"
+                            title="Hit counter"
+                            data-name="e1d878dd5f148d8ab0480176c848d686|6|internal|1|#ffc107|#ebebeb|small|s-hit"
+                            style="border-radius: 8px; padding: 6px 10px; display: inline-block; color: black; text-decoration: none; font-weight: bold; background-color: #ffc107; font-size: 14px;">026028</a>
+
+                        <script>
+                            document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v=" + Date.now() + "'><\/script>");
+                        </script>
+                        <script type="text/javascript"
+                            src="https://visitorshitcounter.com/js/hitCounter.js?v=1754993708784"></script>
+
+                        <!-- Optional CSS to attempt hiding watermark -->
+                        <style>
+                            .hitCounter+div {
+                                display: none !important;
+                            }
+                        </style>
+
+
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-2">
+                        <h5 class="quc"  style="border-bottom: 2px solid red; width: 72%; padding-bottom: 5px">QUICK LINKS</h5>
+                        <ul class="list-unstyled">
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;<a
+                                    href="https://aktu.ac.in/" target="_blank" class="r1">AKTU </a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;<a
+                                    href="https://www.aicte-india.org/" target="_blank" class="r1">AICTE</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;<a
+                                    href="https://aktu.ac.in/circulars.html" target="_blank" class="r1">Circular AKTU</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;<a
+                                    href="https://nptel.ac.in/" target="_blank" class="r1">NPTEL</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp;<a
+                                    href="https://erp.aktu.ac.in/Login.aspx" target="_blank" class="r1">AKTU-ERP</a></li>
+
+                        </ul>
+                    </div>
+
+                    <!-- College Cell -->
+                    <div class="col-md-3">
+                        <h5  style="border-bottom: 2px solid red; width: 45%; padding-bottom: 5px">COLLEGE CELL</h5>
+                        <ul class="list-unstyled">
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="/home/AntiRaggingComplaint" target="_blank"  class="r1">Anti-ragging Cell</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="#" target="_blank"  class="r1">Placement Cell</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="/home/GrievancePortal" target="_blank" class="r1">Grievance Redressal Cell</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="/home/IQAC" target="_blank"  class="r1">IQAC Cell</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="/home/home/Faculty_Directory" target="_blank"  class="r1">Our Faculty</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href=""  class="r1">Our Department</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Policies -->
+                    <div class="col-md-3">
+                        <h5 style="border-bottom: 2px solid red; width: 30%; padding-bottom: 5px">POLICIES</h5>
+                        <ul class="list-unstyled">
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="#"  class="r1">Disclaimer</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="#" class="r1">Privacy Policy</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="#" class="r1">Hyperlinking Policy</a></li>
+                            <li class="speak-text"><i class="fa-solid fa-arrow-up-right-from-square"></i> &nbsp; <a
+                                    href="#" class="r1">Copyright Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom bg-warning text-dark ">
+                <p class="my-auto p-2 text-center">© Copyright 2025 REC Gonda, Uttar Pradesh, India | Powered by <strong>
+                        Softpro India Computer Technologies (Durgesh) Ltd.</strong></p>
+            </div>
+        </footer>
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Clock Script -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
